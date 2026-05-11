@@ -27,7 +27,7 @@ jobs:
         pyinstaller --onefile --windowed --name="账本管理系统" main.py
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: 账本管理系统-Windows
         path: dist/账本管理系统.exe
